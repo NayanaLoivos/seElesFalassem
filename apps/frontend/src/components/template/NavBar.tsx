@@ -8,13 +8,9 @@ export interface PaginaProps {
     className?: string;
 }
 
-export default function Pagina(props: PaginaProps) {
+export default function NavBar(props: PaginaProps) {
     return (
-        <div className="
-        flex  py-10 min-h-screen
-        bg-[url('/Backgroud.svg')] bg-cover
-        "
-        >
+        <div className="flex">
             <Logo />
             <FotoUpload/>
             <main className={ props.className }>{ props.children}</main>

@@ -1,6 +1,8 @@
-
+import NavBar from '@/components/template/NavBar';
 export default function Home() {
   return (
-    <div>Início</div>
+      <NavBar>
+        <div>Início</div>
+      </NavBar>
   );
 }
