@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={ lato.className }>
-        <div className={ poppins.className }>{children}</div>
+        <div >{children}</div>
       </body>
     </html>
   );
