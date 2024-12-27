@@ -1,7 +1,11 @@
-import NavBar from '@/components/template/NavBar';
-import Logo from "@/components/template/Logo";
+import PageLoading from '@/components/template/PageLoading';
+import Image from "next/image";
+import React from "react";
+
 export default function Home() {
   return (
-      <NavBar/>
+      <div className="flex">
+        <PageLoading />
+      </div>
   );
 }

@@ -4,7 +4,6 @@ import Link from 'next/link';
 const font = Righteous({
     subsets: ["latin"],
     weight: "400",
-    weight: "400",
 });
 export default function Logo() {
     return (
@@ -12,7 +11,7 @@ export default function Logo() {
             <div className="flex
             flex-col
             items-center
-            min-w-screen
+            w-screen
             logo-texto"
             style={{ background: 'var(--light-green)'}}>se eles falassem</div>
         </Link>
